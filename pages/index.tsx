@@ -18,11 +18,11 @@ const Home: NextPage<Props> = ({ posts }: Props) => {
         {posts.map((post) => (
           <div key={post.slug}>
             <div className="mb-4">
-              <Thumbnail
+              {/* <Thumbnail
                 slug={post.slug}
                 title={post.title}
                 src={post.thumbnail}
-              />
+              /> */}
             </div>
 
             <h2 className="text-2xl font-bold mb-4">
