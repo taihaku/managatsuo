@@ -3,4 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  basePath: process.env.GITHUB_ACTIONS ? "/managatsuo" : "",
+  trailingSlash: true,
+}
