@@ -2,7 +2,7 @@
   "name": "managatsuo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://taihaku.github.io/managatsuo",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
