@@ -12,19 +12,11 @@ type Props = {
 const Home: NextPage<Props> = ({ posts }: Props) => {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-4">Technical articles</h1>
+      <h1 className="text-4xl font-bold mb-4">東の鮭、西のまながつお</h1>
 
       <div className="space-y-12">
         {posts.map((post) => (
           <div key={post.slug}>
-            <div className="mb-4">
-              {/* <Thumbnail
-                slug={post.slug}
-                title={post.title}
-                src={post.thumbnail}
-              /> */}
-            </div>
-
             <h2 className="text-2xl font-bold mb-4">
               <Link href={`/posts/${post.slug}`}>
                 <a>{post.title}</a>
