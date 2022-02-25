@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { type } from 'os'
 import Header from './Header'
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Link from 'next/link';
 
 import Image from 'next/image';

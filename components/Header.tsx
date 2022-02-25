@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Link from 'next/link';
 
 const Header: React.FC = () => {

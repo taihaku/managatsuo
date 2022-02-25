@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Thumbnail from '../components/Thumbnail';
 import type { NextPage, GetStaticProps } from 'next'
 import { IPost } from "../types/post";
